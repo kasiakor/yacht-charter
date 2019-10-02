@@ -1,71 +1,73 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Greek Heaven Resort</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i&display=swap" rel="stylesheet">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <title>Greek Heaven Resort</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather:300,300i&display=swap"
+        rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"
+        type="text/css">
 
 </head>
 
 <body>
     <div id="headerWrapper">
-    <header>
-        <h1>Greek Heaven Sailing Club</h1>
-        <h2>Yacht Charter</h2>
-        <h3><a href="tel:+302645059622">+30 2645 059 622</a></h3>
-    </header>
+        <header>
+            <h1>Greek Heaven Sailing Club</h1>
+            <h2>Yacht Charter</h2>
+            <h3><a href="tel:+302645059622">+30 2645 059
+                    622</a></h3>
+        </header>
     </div>
-    
-    
-    
-    
     <div id="navWrapper">
-    <nav>
-        <button onclick="">Mikhail Vorontsov</button>
-        <button onclick="">Atlantic</button>
-        <button onclick="">Athena</button>
-        
-    </nav>
-    <div class="keepOpen"></div>
-    </div> 
- 
+        <nav>
+            <button onclick="display(0)">Mikhail
+                Vorontsov</button>
+            <button onclick="display(1)">Atlantic</button>
+            <button onclick="display(2)">Athena</button>
+        </nav>
+        <div class="keepOpen"></div>
+    </div>
     <main>
-    <h1 id="yachtName">Yacht Name</h1>
-    <p id="desc">In ut nunc dapibus cursus ultricies turpis ac nec mattis porttitor mid nunc.</p>
-    <figure class="photo"><img id="photo" src="images/placeholder.jpg" alt="yacht photo"></figure>
-    
-           <section>
-        <h2>Cost</h2>
-        <p>Summer <span id="summer">£000.00</span></p>
-        <p>Winter <span id="winter">£000.00</span></p>
-        <a class="reserve" href="#">Make a Reservation</a>
-    </section>   
-        
-    <section>
-        <h2>Amenities</h2>
-        <div id="details">
-        <p>Sample Item 1</p>
-            <p>Sample Item 1</p>
-            <p>Sample Item 1</p>
-            <p>Sample Item 1</p>
-            <p>Sample Item 1</p>
-        </div>
-    </section>
-        
-     
-        
-        
+        <h1 id="yachtName">Yacht Name</h1>
+        <p id="desc">In ut nunc dapibus cursus ultricies
+            turpis ac nec mattis porttitor mid nunc.</p>
+        <figure class="photo"><img id="photo"
+                src="images/placeholder.jpg"
+                alt="yacht photo"></figure>
+
+        <section>
+            <h2>Cost</h2>
+            <p>High Season: <span id="highs">£000.00</span>
+            </p>
+            <p>Low Season: <span id="lows">£000.00</span>
+            </p>
+            <a class="reserve" href="#">Make a
+                Reservation</a>
+        </section>
+        <section>
+            <h2>Details</h2>
+            <div id="details">
+                <p>Sample Item 1</p>
+                <p>Sample Item 1</p>
+                <p>Sample Item 1</p>
+                <p>Sample Item 1</p>
+                <p>Sample Item 1</p>
+            </div>
+        </section>
         <div class="keepOpen"></div>
     </main>
     <div id="footerWrapper">
-        <footer><p>&copy Greek Heaven Sailing Club &bull;  Marina East Shore Lefkada, Greece</p></footer>
+        <footer>
+            <p>&copy Greek Heaven Sailing Club &bull; Marina
+                East Shore Lefkada, Greece</p>
+        </footer>
     </div>
-
-
-
 </body>
 <script type="text/javascript" src="js/main.js"></script>
+
 </html>

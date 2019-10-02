@@ -1,22 +1,22 @@
 [   {
     "name":"Mikhail Vorontsov",
-    "description":"The 211.61ft /64.5m Custom 'Mikhail Vorontsov' was built in 2013 by Dream Ship Victory. Mikhail Vorontsov's interior layout sleeps up to 12 guests in 5 rooms, including a master suite, 2 double cabins, 2 twin cabins and 2 pullman beds. She is also capable of carrying up to 10 crew onboard to ensure a relaxed luxury yacht experience. Timeless styling, beautiful furnishings and sumptuous seating feature throughout to create an elegant and comfortable atmosphere.",
-    "cost":{"summer":"£140000.00", "winter":"£120000.00"},
+    "description":"The 211.61ft /64.5m Custom 'Mikhail Vorontsov' was built in 2013 by Dream Ship Victory. <br> Mikhail Vorontsov's interior layout sleeps up to 12 guests in 5 rooms, including a master suite, 2 double cabins, 2 twin cabins and 2 pullman beds. She is also capable of carrying up to 10 crew onboard to ensure a relaxed luxury yacht experience. Timeless styling, beautiful furnishings and sumptuous seating feature throughout to create an elegant and comfortable atmosphere.",
+    "cost":{"HS":"£140000.00", "LS":"£120000.00"},
     "details":["Duplex Master Quarters","Owner's Private Deck Saloon","Air Conditioning","WiFi connection on board"],
-    "photo":"images/michailvorontsov.jpg"
+    "photo":"images/mikhailvorontsov.jpg"
     },
     {
     "name":"Atlantic",
-    "description":"The 211.61ft /64.50m Custom 'Atlantic' was built in 2010 by Van der Graaf. Atlantic's interior layout sleeps up to 12 guests in 6 rooms, including a master suite, 2 double cabins and 3 twin cabins. She is also capable of carrying up to 12 crew onboard to ensure a relaxed luxury yacht experience. Atlantic's impressive leisure and entertainment facilities make her the ideal charter yacht for socialising and entertaining with family and friends.",
-    "cost":{"summer":"£109000.00", "winter":"£99000.00"},
-    "details":["Replete with exceptional craftsmanship","Air Conditioning","WiFi connection on board"],
+    "description":"The 211.61ft /64.50m Custom 'Atlantic' was built in 2010 by Van der Graaf.<br> Atlantic's interior layout sleeps up to 12 guests in 6 rooms, including a master suite, 2 double cabins and 3 twin cabins. She is also capable of carrying up to 12 crew onboard to ensure a relaxed luxury yacht experience. Atlantic's impressive leisure and entertainment facilities make her the ideal charter yacht for socialising and entertaining with family and friends.",
+    "cost":{"HS":"£109000.00", "LS":"£99000.00"},
+    "details":["Faithful replica of one of the greatest sailing yachts ever built","Replete with exceptional craftsmanship","Air Conditioning","WiFi connection on board"],
     "photo":"images/atlantic.jpg"
     },
     {
     "name":"Athena",
-    "description":"The 295.28ft /90m Custom 'Athena' was built in 2004 by Royal Huisman and last refitted in 2019. Athena's interior layout sleeps up to 10 guests in 5 rooms, including a master suite, 3 double cabins and 1 twin cabin. She is also capable of carrying up to 19 crew onboard to ensure a relaxed luxury yacht experience. Superyacht Athena is a classically styled three masted gaff rigged schooner with all the latest amenities of a modern superyacht.",
-    "cost":{"summer":"£320000.00", "winter":"£300000.00"},
+    "description":"The 295.28ft /90m Custom 'Athena' was built in 2004 by Royal Huisman and last refitted in 2019.<br> Athena's interior layout sleeps up to 10 guests in 5 rooms, including a master suite, 3 double cabins and 1 twin cabin. She is also capable of carrying up to 19 crew onboard to ensure a relaxed luxury yacht experience. Superyacht Athena is a classically styled three masted gaff rigged schooner with all the latest amenities of a modern superyacht.",
+    "cost":{"HS":"£320000.00", "LS":"£300000.00"},
     "details":["Largest sailing yacht for charter","Large Book Library","Gym","Air Conditioning","WiFi connection on board"],
-    "photo":"images/athena.jpg"
+    "photo":"images/athena1.jpg"
     }
 ]

@@ -214,12 +214,14 @@ main h1 {
   font-size: 2.5rem;
   color: #214a9c;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 main h2 {
   font-family: "Alex Brush", cursive;
   font-size: 2rem;
   color: #214a9c;
+  padding-bottom: 15px;
 }
 
 main p {
@@ -228,7 +230,7 @@ main p {
 
 main p#desc {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 main span {
@@ -279,7 +281,7 @@ div.keepOpen {
   clear: both;
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 480px) {
   header h3 {
     bottom: 1px;
   }
@@ -337,6 +339,6 @@ div.keepOpen {
     letter-spacing: 5px;
   }
   main h1 {
-    font-size: 4rem;
+    font-size: 2.8rem;
   }
 }

@@ -29,7 +29,7 @@ function display(x){
 
     for (i=0; i < yachtInfo[x].details.length; i++ ){
         console.log(yachtInfo[x].details[i]);
-        details += "<p>" + yachtInfo[x].details[i] + "</p>";
+        details += "<li>" + yachtInfo[x].details[i] + "</li>";
     } // end loop
     document.getElementById("details").innerHTML = details;
 } // end function

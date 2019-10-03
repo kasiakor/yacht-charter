@@ -10,15 +10,12 @@ xhr.send();
 xhr.onload = function(){
     if(xhr.status === 200) {
         yachtInfo = JSON.parse(xhr.responseText);
-        console.log(yachtInfo);
         display(0);
-  
-    } // end if
-} // end function
+    } 
+} 
 
 // function to display JSON data
 function display(x){
-    console.log(x);
     document.getElementById("yachtName").innerHTML = yachtInfo[x].name;
     document.getElementById("desc").innerHTML = yachtInfo[x].description;
     document.getElementById("photo").src = yachtInfo[x].photo;
@@ -28,9 +25,8 @@ function display(x){
     details = "";
 
     for (i=0; i < yachtInfo[x].details.length; i++ ){
-        console.log(yachtInfo[x].details[i]);
         details += "<li>" + yachtInfo[x].details[i] + "</li>";
-    } // end loop
+    } 
     document.getElementById("details").innerHTML = details;
-} // end function
+} 
 
